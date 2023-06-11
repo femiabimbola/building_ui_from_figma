@@ -8,8 +8,9 @@ const NavBar = () => {
       <ul className="hidden list-none sm:flex justify-end items-center flex-1">
         {/* Every return inside a map must have a key. The element must have a key */}
         {navLinks.map((nav, index) => (
-          <li key={nav.id} className={`font-poppins`}>
-            {" "}
+          <li key={nav.id} className={`font-poppins cursor-pointer text-white text-[16px] font-normal mr-10`}>
+            {/* When using dollar, use backtick  */}
+            <a href={"#{nav.id}"}>{nav.title}</a>
           </li>
         ))}
       </ul>
