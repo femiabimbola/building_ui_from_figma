@@ -16,7 +16,6 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <p>stats</p>
         <p> Business </p>
-        <p className={`text-white`}> Business </p>
       </div>
     </div>
   </div>
