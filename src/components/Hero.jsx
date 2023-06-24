@@ -13,7 +13,12 @@ const Hero = () => {
             <span className='text-white'> 1 month </span>
             Account 
             </p>
-          
+        </div>
+        <div className='flex flex-row justify-between items-center w-full'>
+          <h1 className={`flex-1 font-poppins font-semibold ss:text-[72px] text-white text-[52px]`}> The Next <br className='sm:block hidden'/> {' '} 
+          <span className='text-gradient'> Generation </span> <br/> Payment method 
+          </h1>
+
         </div>
       </div>
     </section>
